@@ -1,0 +1,33 @@
+.post{
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    height: 339px;
+    box-sizing: border-box;
+    border: #c4c4c413 solid 2px;
+    align-items: center;
+    border-radius: 4px;
+    margin: 30px;
+
+}
+.post:hover{
+    border: solid 2px #002E74;
+    cursor: pointer;
+}
+.post-name{
+    font-size: 20px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    color: #000;
+    margin-top: 10px;
+}
+.post-harga{
+    font-size: 20px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    color: #000;
+    margin-top: 10px;
+}
+.harga{
+    color: #707070;
+}

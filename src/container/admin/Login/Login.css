@@ -1,0 +1,85 @@
+.login-container{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    align-self: center;
+    flex-direction: column;
+    border: 1px black solid;
+    box-shadow: 1px 2px 10px 1px #002E74;
+    border-radius: 4px;
+}
+.login{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.log-text{
+    font-family: 'Poppins',sans-serif;
+    font-size: 30px;
+    color: #c4c4c4;
+    margin-top: 12px;
+    margin-left: 30px;
+}
+.form-login{
+    display: flex;
+    flex-direction: column;
+}
+.formLogin{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90%;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 0;
+    
+}
+.logInput{
+    display: flex;
+    flex-direction: column;
+    width: 86%;
+    height: 100px;
+    justify-content: space-around;
+    align-self: center;
+    justify-self: center;
+}
+.labLogin{
+    font-family: 'Roboto',sans-serif;
+    font-size: 20px;
+    color: #000;
+}
+.login-input{
+    width: 100%;
+    height: 50px;
+    background: #EBF4F8;
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;
+    color: #757575;
+    padding-left: 5px;
+}
+.sub-login{
+    width: 320px;
+    height: 55px;
+    color: #fff;
+    background: #002E74;
+    display: flex;
+    align-self: center;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto' ,sans-serif;
+    font-size: 20px;
+    border: none;
+}
+.sub-login:hover{
+    background: #02255a;
+}
+input {
+    border: none;
+}
+textarea{
+    border: none;
+}

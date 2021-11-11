@@ -1,0 +1,88 @@
+.post-product{
+   width: 270px;
+   height: 170px;
+    display: flex;
+    border-radius: 11px;
+    flex-direction: row;
+    margin: 5px;
+    padding: 5px;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-top: 35px;
+    background: rgba(255, 255, 255, 0.884);
+    align-items: center;
+    
+}
+.img-box-ad{
+    width: 170px;
+    height: 150px;
+    display: flex;
+    background: #F1F3F8;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    border-radius: 8px;
+
+}
+.img-post-ad{
+    width: 100px;
+    height: 160px;
+}
+
+.all-produk{
+    max-width: 100%;
+    height: auto;
+    display: flex;
+}
+.btn-rem{
+    width: 120px;
+    height: 25px;
+    display: flex;
+    position: relative;
+    align-self: center;
+    background: none;
+    float: inline-end;
+    border: none;
+    justify-content: center;
+    cursor: pointer;
+}
+.sampah{
+    background: url("sampaah.svg");
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 25px;
+}
+.keter{
+    padding: 3px;
+    text-align: center;
+}
+.name-ad{
+    color: black;
+    font-size: small;
+    margin-top: 3px;
+    font-weight: bold;
+}
+.harga-ad{
+    color: #6e6e6e;
+    font-size: small;
+    margin-top: 3px;
+    font-weight: bold;
+}
+.describe-ad{
+    color: #6e6e6e;
+    font-size: x-small;
+    margin-top: 3px;
+}
+.stat{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+p{
+    height: 15px;
+}
+.pro-img{
+    width: 100px;
+    height: 120px;
+   
+}

@@ -1,0 +1,154 @@
+.home{
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    box-sizing: border-box;
+}
+.hero{
+    width: 100%;
+    height: 628px;
+    background: #002E74;
+    display: flex;
+    flex-direction: row;
+}
+.hero-left{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    height: 100%;
+}
+.hero-right{
+    width: 70%;
+    height: 100%;
+}
+.circle-yellow{
+    width: 400px;
+    height: 400px;
+    background: #EDF200;
+    border-radius: 50%;
+    opacity: 0.13;
+    position: absolute;
+    top: 50px;
+    left: -10px;
+    cursor: grab;
+    z-index: 10000;
+}
+.circle-red{
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    opacity: 0.3;
+    position: absolute;
+    background: #F20F00;
+    top: 405px;
+    left: 445px;
+    cursor: grab;
+}
+.circle-blue{
+    width: 212px;
+    height: 212px;
+    border-radius: 50%;
+    background: #3284FF;
+    opacity: 0.14;
+    position: absolute;
+    top: 66px;
+    left: 474px;
+    cursor: grab;
+    z-index: 10000;
+}
+.img-model{
+    position: absolute;
+    left: 124px;
+    top: 50px;
+}
+.h2{
+    color: #4791FF;
+    font-family: 'Roboto',sans-serif;
+    font-size: 24px;
+    font-weight: 600px;
+    position: absolute;
+    top: 110px;
+    left: 627px;
+}
+.h1{
+    font-size: 67px;
+    font-weight: 500;
+    color: #fff;
+    position: absolute;
+    width: 600px;
+    height: 153px;
+    
+    top: 105px;
+    
+    left: 618px;
+}
+.img-splash{
+    position: absolute;
+    left: 520px;
+    top: 20px;
+}
+.p{
+    width: 463px;
+    height: 63px;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    position: absolute;
+    top: 348px;
+    left: 627px;
+}
+.hero-point{
+    width: 313px;
+    height: 137px;
+    position: absolute;
+    top: 417px;
+    left: 619px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.point{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: #eef2008e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.point-titik{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #EDF200;
+}
+.point-view{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.h4{
+    height: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #bfbfbf;
+}
+.btn-arrow{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    right: 67px;
+    top: 586px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

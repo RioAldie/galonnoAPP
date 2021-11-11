@@ -1,0 +1,21 @@
+.post-order{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 200px;
+    margin-top: 50px;
+    padding: 20px;
+}
+.ket{
+    margin-left: 20px;
+}
+#order{
+    display: flex;
+    flex-direction: row;
+}
+.data{
+    display: flex;
+    width: 500px;
+    height: 200px;
+    flex-direction: column;
+}
